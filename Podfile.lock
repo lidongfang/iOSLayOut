@@ -1,12 +1,18 @@
 PODS:
   - Masonry (1.0.1)
+  - MLLayout (0.4.1)
+  - PureLayout (3.0.2)
 
 DEPENDENCIES:
   - Masonry (= 1.0.1)
+  - MLLayout (= 0.4.1)
+  - PureLayout (~> 3.0.2)
 
 SPEC CHECKSUMS:
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MLLayout: 65a0e2f3540138bf6de1c624988b4104999668da
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
 
-PODFILE CHECKSUM: e6f19d9dae8cb5a528303e86f413d5216a88a9a2
+PODFILE CHECKSUM: 98581ebcef320c554ecda198b6f3d41181608292
 
 COCOAPODS: 1.1.1

@@ -8,6 +8,9 @@
 
 #import "percentLayoutController.h"
 
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
 @interface percentLayoutController ()
 
 @end
@@ -17,8 +20,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UIView *singleView=[[UIView alloc]initWithFrame:CGRectMake1(10,20+64, 100, 30)];
+    singleView.backgroundColor=[UIColor redColor];
+    [self.view addSubview:singleView];
 }
-
+#pragma mark -------屏幕适配-------
+CG_INLINE CGRect
+CGRectMake1(CGFloat x, CGFloat y, CGFloat width, CGFloat height)
+{
+    //屏幕适配比例
+    float autoSizeScaleX;
+    float autoSizeScaleY;
+    if (ScreenHeight >480) {
+        autoSizeScaleX = ScreenWidth/320;
+        autoSizeScaleY = ScreenHeight/568;
+        
+    } else {
+        autoSizeScaleX = 1.0;
+        autoSizeScaleY = 1.0;
+    }
+    
+    
+    CGRect rect;
+    rect.origin.x = x * autoSizeScaleX;
+    rect.origin.y = y * autoSizeScaleY;
+    rect.size.width = width * autoSizeScaleX;
+    rect.size.height = height * autoSizeScaleY;
+    
+    return rect;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

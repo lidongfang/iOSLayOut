@@ -27,6 +27,7 @@
 		843A0FA11E529BB8006A42B1 /* percentLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843A0F9F1E529BB8006A42B1 /* percentLayoutController.m */; };
 		843A0FA21E529BB8006A42B1 /* percentLayoutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843A0FA01E529BB8006A42B1 /* percentLayoutController.xib */; };
 		843A0FA51E529F99006A42B1 /* rootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843A0FA41E529F99006A42B1 /* rootController.m */; };
+		843A0FA71E52E425006A42B1 /* flex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843A0FA61E52E425006A42B1 /* flex@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		843A0FA01E529BB8006A42B1 /* percentLayoutController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = percentLayoutController.xib; sourceTree = "<group>"; };
 		843A0FA31E529F99006A42B1 /* rootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootController.h; sourceTree = "<group>"; };
 		843A0FA41E529F99006A42B1 /* rootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootController.m; sourceTree = "<group>"; };
+		843A0FA61E52E425006A42B1 /* flex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flex@2x.png"; sourceTree = "<group>"; };
 		A8AE5F1577225C92ED1AB1AE /* Pods-iOSLayOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLayOut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSLayOut/Pods-iOSLayOut.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,6 +200,7 @@
 		843A0F891E529A64006A42B1 /* everyLayouts */ = {
 			isa = PBXGroup;
 			children = (
+				843A0FA61E52E425006A42B1 /* flex@2x.png */,
 				843A0F8A1E529AC7006A42B1 /* absoluteLayoutController.h */,
 				843A0F8B1E529AC7006A42B1 /* absoluteLayoutController.m */,
 				843A0F8C1E529AC7006A42B1 /* absoluteLayoutController.xib */,
@@ -333,6 +336,7 @@
 				843A0F9D1E529B8A006A42B1 /* source3rdController.xib in Resources */,
 				843A0F931E529AEC006A42B1 /* autoresizingLayoutController.xib in Resources */,
 				843A0F611E5296C8006A42B1 /* Main.storyboard in Resources */,
+				843A0FA71E52E425006A42B1 /* flex@2x.png in Resources */,
 				843A0FA21E529BB8006A42B1 /* percentLayoutController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

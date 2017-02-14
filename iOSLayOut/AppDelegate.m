@@ -20,7 +20,7 @@
     // Override point for customization after application launch.
     ViewController *vc=[[ViewController alloc]init];
     UINavigationController *rootVc=[[rootController alloc]initWithRootViewController:vc];
-    self.window.frame=[UIScreen mainScreen].bounds;
+    self.window= [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];;
     self.window.rootViewController=rootVc;
     return YES;
 }
